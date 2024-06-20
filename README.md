@@ -16,7 +16,7 @@ This project is a clone of the ASUS Republic of Gamers (ROG) website, built usin
 
 ## Demo
 
-You can view a live demo of the project [here](#).
+You can view a live demo of the project [here](https://kasinath-anilkumar.github.io/Rog-Clone/).
 
 ## Features
 
