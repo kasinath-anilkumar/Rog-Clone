@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.extnv{
+    background-color: black;
+    color: white !important;
+    justify-content: end;
+}
+.extnv:hover{
+    color: red !important;
+    transition: all ease 0.4s;
+}
+.pro-main{
+    display: flex;
+    float: left;
+}
+.card-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.card-title:hover{
+    cursor: pointer;
+}
+.card-text{
+    font-weight: 600;
+}
+.card-text:hover{
+    cursor: pointer;
+    color: red;
+    transition: all 0.2s;
+}
+.card img:hover{
+    transform: scale(0.9);
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+.btn{
+    background-color: rgb(247, 22, 22) !important;
+    color: white;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background-color: black !important;
+    color: red !important;
+}
+@media (max-width:550px){
+    .card{
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+.grid-main{
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 1.5rem;
+    grid-template-columns:repeat( auto-fit, minmax(300px, 1fr));
+    overflow: hidden;
+    position: relative;
+    
+}
+.grid-items p{
+    padding: 1.2rem;
+}
+.grid-items img{
+    border-radius: 3px;
+    transition: all ease 0.3s;
+}
+@media (max-width:600px){
+    .grid-items{
+        margin: 0 1.5rem;
+    }
+}
+.grid-items img:hover{
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+}
+.grid-items p{
+    font-size: 1em;
+    font-weight: 600;
+}
+.grid-items p:hover{
+    color: red;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+#pr-grid{
+    color: white;
+    background-image: url(https://dlcdnrog.asus.com/rog/media/151387949811.webp);
+    object-fit: cover;
+    background-position: center;
+}
+.items-main{
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+    grid-template-columns:repeat( auto-fit, minmax(300px, 1fr));
+    overflow: hidden;
+    position: relative;
+}
+@media (max-width:600px){
+    .items-main{
+        margin: 0 1.5rem;
+    }
+}
+.items p{
+    padding: 1.3rem;
+}
+.items p{
+    font-size: 1em;
+    font-weight: 600;
+}
+.items img:hover{
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+.items p:hover{
+    cursor: pointer;
+    color: red;
+    transition: all ease 0.3s;
+}
+.rog-action-learnmore{
+    font-weight: 600 !important;
+}
+.footer-main{
+    position: relative;
+}
+.footer-text{
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    width: 40%;
+}
+.footer-text P{
+    color: white;
+}
+@media (max-width: 1100px) {
+    .footer-text {
+        display: none;
+    }
+}
+
+.footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 400px;
+    background: url(https://dlcdnrog.asus.com/rog/media/1513879808408.webp) center/cover;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+.footer-links {
+    flex: 1;
+    margin: 10px;
+}
+.footer-links h1 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+.footer-links h1:hover,
+.social:hover {
+    color: red;
+    cursor: pointer;
+}
+.social {
+    font-size: 1.4rem;
+    margin: 8px;
+}
+@media (max-width:700px) {
+    .footer-links h1{
+        font-size: 10px;
+    }
+    .fot-image{
+        display: none;
+    }
+    #fot-scl{
+        display: flex;
+    }
+}
