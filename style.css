@@ -1,6 +1,7 @@
 body{
     margin: 0;
     scroll-behavior: smooth;
+    over-flowX:hidden;
 }
 .extnv{
     background-color: black;
