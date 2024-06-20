@@ -1,13 +1,8 @@
 body{
     margin: 0;
     scroll-behavior: smooth;
-<<<<<<< HEAD
     overflow-x: hidden;
-=======
-    over-flowX:hidden;
->>>>>>> febbb0a877b434e721dd6a6bbe5f18b0a9e73652
-}
-.extnv{
+    .extnv{
     background-color: black;
     color: white !important;
     justify-content: end;
